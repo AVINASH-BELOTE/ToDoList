@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Customer Detail Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Customer Detail Form</h2>
+      <label id="outputLabel"></label>
+    <input type="text" id="name" placeholder="Full Name" />
+    <input type="number" id="mobile" placeholder="Mobile Number" />
+    <span id="mobileError" style="color: red;"></span>
+    <input type="email" id="email" placeholder="Email" />
+    <input type="text" id="address" placeholder="Address" />
+    <input type="text" id="city" placeholder="City" />
+    <input type="text" id="pincode" placeholder="Pincode" />
+
+    <button onclick="submitForm()">Submit</button>
+    <p id="message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
